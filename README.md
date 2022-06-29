@@ -6,6 +6,13 @@
 
 ### Diseño
 
+Para el proceso de fabricación de la herramiento de planteó realizarlo en un modelo CAD y posteriormente realizar la respectiva impresión 3D. El modelo CAD se muestra a continuación:
+
+![CAD herramienta](/imagenes/Porta_herramienta.png)
+
+Se compone de una base con agujeros M6 (según el manual) para atornillarla a la superficie de anclaje del Robot y además un cilindro hueco para introducir el marcador, con unas cartelas para darle más soporte.
+
+
 ### Calibración de herramienta en RobotStudio y en IRB140.  
 En el modelo de RobotStudio se realiza la importación de la geometría STL de la herramienta, como se muestra en la siguiente imagen:  
 
