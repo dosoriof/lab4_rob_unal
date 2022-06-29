@@ -8,7 +8,7 @@
 
 Para el proceso de fabricación de la herramiento de planteó realizarlo en un modelo CAD y posteriormente realizar la respectiva impresión 3D. El modelo CAD se muestra a continuación:
 
-![CAD herramienta](/imagenes/Porta_herramienta.PNG)
+![CAD herramienta](/imagenes/Porta_marcador.PNG)
 
 Se compone de una base con agujeros M6 (según el manual) para atornillarla a la superficie de anclaje del Robot y además un cilindro hueco para introducir el marcador, con unas cartelas para darle más soporte.
 
