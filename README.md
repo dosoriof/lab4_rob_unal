@@ -114,34 +114,6 @@ MODULE Module_RDS
     CONST robtarget S_8:=[[176,94.5,0],[0,0,1,0],[0,0,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget S_9:=[[194.5,89,0],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget S_10:=[[194.5,89,50],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_1_2:=[[0,0,50],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_2_2:=[[0,0,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_3_2:=[[0,94,0],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_4_2:=[[25.5,94,0],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_5_2:=[[48,71.5,0],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_6_2:=[[25,49,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_7_2:=[[0,49,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_8_2:=[[34.5,43,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_9_2:=[[40.5,33.5,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_10_2:=[[53,0,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_11_2:=[[53,0,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget R_12_2:=[[53,0,50],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget D_1_2:=[[67.6,0,50],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget D_2_2:=[[67.6,0,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget D_3_2:=[[67.6,94,0],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget D_4_2:=[[97.5,94,0],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget D_5_2:=[[130,47,0],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget D_6_2:=[[97.5,0,0],[0,0,1,0],[-1,1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_1_2:=[[150,6,50],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_2_2:=[[150,6,0],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_3_2:=[[169,0,0],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_4_2:=[[193,14,0],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_5_2:=[[184,40,0],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_6_2:=[[160,55,0],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_7_2:=[[152,81,0],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_8_2:=[[176,94.5,0],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_9_2:=[[194.5,89,0],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-    CONST robtarget S_10_2:=[[194.5,89,50],[0,0,1,0],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     PERS tooldata TCP_Porta_marcador:=[TRUE,[[0,0,150],[1,0,0,0]],[1,[0,0,1],[1,0,0,0],0,0,0]];
     TASK PERS wobjdata Workobject_1:=[FALSE,TRUE,"",[[0,0,0],[1,0,0,0]],[[400,550,14],[0.707106781,0,0,-0.707106781]]];
     
@@ -272,4 +244,8 @@ ENDMODULE
 
 ```
 ## Conclusiones
+* Al momento de planear trayectoria es importante definir workObjects de forma que se pueda tener un sistema de coordenadas independiente de forma que se pueda alterar la trayectoria sin tener que modificar los puntos. De esta forma se pueden realizar ajustes en campo sin implicar demasiadas modificaciones al código.
+* Al momento de modificar un workObject en el cual ya existen trayectorias definidas existen unos límites entre los cuales el programa funciona sin inconveniente, sin embargo, cuando para llegar a alguna posición el robot requiere una nueva configuración el sistema presenta errores, por lo cual cuando se requieran realizar trayectorias en espacios en los que se requieren nuevas configuraciones, se deben tener en cuenta en el momento de la creación.  
+* Al momento de realizar una calibración de la herramienta es importante poder visualizar con presión el punto central de la herramienta para poder obtener buena precisión en dicha calibración.  
+* En los casos en que el robot tenga que interactuar con el espacio y este no esté muy bien mapeado y sea móvil, es importante prever ciertos desajustes y faltas de precisión por lo tanto es fundamental que las herramientas tengas un diseño con holgura o juego, en este caso se colocó un resorte que mantenía el marcador en contacto, pero le permite retraerse aproximadamente 1.5 cm. De esta forma no existe gran riesgo de accidentes o daños en los equipos y los entornos de trabajo.  
 
