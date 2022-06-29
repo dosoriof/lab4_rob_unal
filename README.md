@@ -1,7 +1,7 @@
 # Laboratorio 5 - Robótica Industrial IRB140 
 - Rafael Ricardo Galindo
 - Diego Fabian Osorio Fonseca
-- Cristian Cuestas
+- Christian Cuestas
 
 ![Vista superior](/imagenes/Vista_sup.jpeg)
 
@@ -78,7 +78,7 @@ Teniendo Creados y definidos los dos sistemas de coordenadas de los workObjects 
 
 ## Resultados
 
-El video con la simulación en Robotstudio y la implementación de la práctica con el robot real se encuentra en el siguiente Link:  **[Video Laboratorio 4](https://youtu.be/RAd8DfRgSsY)**
+El video con la simulación en Robotstudio y la implementación de la práctica con el robot real se encuentra en el siguiente Link:  **[Video Laboratorio 4](https://youtu.be/TbUIRoGOmfU)**
 
 
 ### Código en RAPID
