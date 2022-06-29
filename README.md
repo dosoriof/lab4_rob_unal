@@ -14,6 +14,8 @@
 
 ## Resultados
 
+### Código en RAPID
+
 ### Robot Studio
 
 ### Robot Real
