@@ -8,7 +8,7 @@
 
 Para el proceso de fabricación de la herramiento de planteó realizarlo en un modelo CAD y posteriormente realizar la respectiva impresión 3D. El modelo CAD se muestra a continuación:
 
-![CAD herramienta](/imagenes/Porta_herramienta.png)
+![CAD herramienta](/imagenes/Porta_herramienta.PNG)
 
 Se compone de una base con agujeros M6 (según el manual) para atornillarla a la superficie de anclaje del Robot y además un cilindro hueco para introducir el marcador, con unas cartelas para darle más soporte.
 
@@ -37,6 +37,9 @@ En este caso de acurdo a la geometría del portaherramientas y la longitud que s
 
 
 ## Resultados
+
+El video con la simulación en Robotstudio y la implementación de la práctica con el robot real se encuentra en el siguiente Link:  **[Video Laboratorio 4](https://youtu.be/RAd8DfRgSsY)**
+
 
 ### Código en RAPID
 
