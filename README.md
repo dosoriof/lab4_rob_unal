@@ -17,7 +17,7 @@ Se compone de una base con agujeros M6 (según el manual) para atornillarla a la
 
 ![plano herramienta](/imagenes/Herramienta_plano.bmp)
 
-Para permitir un juego en el marcador que hace que exista menos ...... en el momento de realizar los trazos, se dejo un espacio libre en el cilindro y allí se introdujo un resorte, que permite una retracción en el marcador cuando se realiza el contacto con la superficie:
+Para permitir un juego en el marcador que hace que exista menos resistencia en el momento de realizar los trazos, se dejo un espacio libre en el cilindro y allí se introdujo un resorte, que permite una retracción en el marcador cuando se realiza el contacto con la superficie:
 
 ![herramienta](/imagenes/Herramienta_foto.jpeg)
 
@@ -270,9 +270,6 @@ MODULE Module_RDS_in
     ENDPROC
 ENDMODULE
 
-```
-```javascript I'm tab B
-console.log('Code Tab B');
 ```
 ## Conclusiones
 
