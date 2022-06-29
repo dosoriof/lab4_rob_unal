@@ -48,10 +48,24 @@ Luego se hace Jogging con el robot hasta las orientaciones y posiciones indicada
 
 
 ## Trayectorias
-
+### Diseño Trayectoria. 
 Para genera la trayectoria se realizó un dibujo en AutoCAD de forma que nos permitirá visualizar la trayectoria deseada y extraer los putos de los vértices y los centros de los arcos, como se muestra a continuación:
 ![Creación del Data Tool.](/imagenes/RDS_Drawing.jpg)   
-Dicha trayectoria tiene unidades de milímetros y se toman los datos de vértices y centros de arcos, se tomó como origen la esquina de la R y se realizan los trazos en el cuadrante I, x+ , y+; esto se debe tener en cuenta en cómo se realiza el posicionamiento y orientación del sistema de coordenadas del workObject. Adicionalmente en el eje Z todas las coordenadas se manejan en el plano Z=0, excepto en el caso que haya que levantar la herramienta, en este caso se trabaja en plano z=50.
+Dicha trayectoria tiene unidades de milímetros y se toman los datos de vértices y centros de arcos, se tomó como origen la esquina de la R y se realizan los trazos en el cuadrante I, x+ , y+; esto se debe tener en cuenta en cómo se realiza el posicionamiento y orientación del sistema de coordenadas del workObject. Adicionalmente en el eje Z todas las coordenadas se manejan en el plano Z=0, excepto en el caso que haya que levantar la herramienta, en este caso se trabaja en plano z=50…
+### Definición de los Work Objects.
+Como se menciono anteriormente las trayectorias están definidas respecto a su propio sistema de coordenadas, esto se realiza para reutilizar dichas coordendas para los dos casos que se deben realizar, el caso del dibujo en plano y el caso del dibujo en plano inclinado; esto nos obliga realizar la definion de un sistema de coordenamas base para cada trayectoria, esto se conoce como workObject, este se define de acuerdo al sistema de coordenadas de la base.  
+Para el primer caso de la trayectoria plana se define el sistema de coordenadas del workObject con solo el origen del plano y las rotaciones indicadas para que la orientación del recorrido sea la deseada, en este caso se rota el eje Z -90°, para obtener las coordenadas del origen se hace Jogging con el robot en coordenadas de base, hasta que la herramienta entre en contacto con la superficie en el punto deseado, en este caso [400, 550, 4].
+Para el caso de la trayectoria inclinada se hace uso de una herramienta de definición de sistemas de coordenadas de RobotStudio en la cual se puede definir un sistema de coordenadas con un punto base, un punto sobre el eje x y un punto en el plano xy, como se muestra a continuación:  
+![Creación del Data Tool.](/imagenes/WOb_Create.jpg)   
+Para realizar la obtención de dichos puntos se realiza Joggin del robot hasta las posiciones deseadas y se pone en contacto la herramienta con la superficie, se toman dichos valores y el programa realiza el cálculo de desplazamiento y rotaciones necesarias para definir dicho sistema de coordenadas y usarlo como el workObject de referencia para la segunda trayectoria, como se muestra a continuación:  
+![Creación del Data Tool.](/imagenes/WOb_Define.jpg)   
+En el caso de nuestro ejercicio las coordenadas de los puntos de referencia son las siguientes:
+P1=[525, -440, 148]; P2=[390, -520, 148]; P3=[503, -595, 207]  
+Estas coordenadas nos dan un sistema de referencia con las siguientes características:  
+O= [440,-490,148]  
+Rx, Ry, Rz=[25.78, 0, -149.35] RPY Euler ZYX Deg.  
+Teniendo Creados y definidos los dos sistemas de coordenadas de los workObjects necesarios se procede a programar las trayectorias.
+
 
 
 ## Resultados
