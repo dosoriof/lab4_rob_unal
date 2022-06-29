@@ -49,6 +49,10 @@ Luego se hace Jogging con el robot hasta las orientaciones y posiciones indicada
 
 ## Trayectorias
 
+Para genera la trayectoria se realizó un dibujo en AutoCAD de forma que nos permitirá visualizar la trayectoria deseada y extraer los putos de los vértices y los centros de los arcos, como se muestra a continuación:
+![Creación del Data Tool.](/imagenes/RDS_Drawing.jpg)   
+Dicha trayectoria tiene unidades de milímetros y se toman los datos de vértices y centros de arcos, se tomó como origen la esquina de la R y se realizan los trazos en el cuadrante I, x+ , y+; esto se debe tener en cuenta en cómo se realiza el posicionamiento y orientación del sistema de coordenadas del workObject. Adicionalmente en el eje Z todas las coordenadas se manejan en el plano Z=0, excepto en el caso que haya que levantar la herramienta, en este caso se trabaja en plano z=50.
+
 
 ## Resultados
 
