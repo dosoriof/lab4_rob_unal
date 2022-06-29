@@ -1,2 +1,3 @@
-# lab4_rob_unal
-Laboratorio 5 - Robótica Industrial IRB140 - Robótica - Universidad Nacional de Colombia
+# Laboratorio 5 - Robótica Industrial IRB140 
+- Rafael Ricardo Galindo
+- Diego Fabian Osorio Fonseca
