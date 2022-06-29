@@ -1,6 +1,9 @@
 # Laboratorio 5 - Robótica Industrial IRB140 
 - Rafael Ricardo Galindo
 - Diego Fabian Osorio Fonseca
+- Cristian Cuestas
+
+![Vista superior laboratorio](/imagenes/Vista_sup.jpeg)
 
 ## Herramienta
 
@@ -10,7 +13,12 @@ Para el proceso de fabricación de la herramiento de planteó realizarlo en un m
 
 ![CAD herramienta](/imagenes/Porta_marcador.PNG)
 
-Se compone de una base con agujeros M6 (según el manual) para atornillarla a la superficie de anclaje del Robot y además un cilindro hueco para introducir el marcador, con unas cartelas para darle más soporte.
+Se compone de una base con agujeros M6 (según el manual) para atornillarla a la superficie de anclaje del Robot y además un cilindro hueco para introducir el marcador, con unas cartelas para darle más soporte. El plano de la herramienta se encuentra a continuación:
+![plano herramienta](/imagenes/Herramienta_plano.bmp)
+
+Para darle un juego al marcador, se dejó un espacio adicional en el cilindro, y se adiciona un resorte que va a permitir que la punta del marcador se retracte cuando haga contacto con la superficie:
+
+![plano herramienta](/imagenes/Herramienta_foto.jpeg)
 
 
 ### Calibración de herramienta en RobotStudio y en IRB140.  
