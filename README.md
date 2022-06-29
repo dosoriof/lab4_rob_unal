@@ -14,6 +14,7 @@ Se compone de una base con agujeros M6 (según el manual) para atornillarla a la
 
 
 ### Calibración de herramienta en RobotStudio y en IRB140.  
+#### Calibración de herramienta en RobotStudio.  
 En el modelo de RobotStudio se realiza la importación de la geometría STL de la herramienta, como se muestra en la siguiente imagen:  
 
 ![Importar herramienta RobotSutio](/imagenes/Imp_Tool.jpg)   
@@ -31,6 +32,19 @@ Primero se debe crear el dato de la herramienta asi:
 Luego se configura la posición y orientación del sistema de coordenadas de efector final, así:  
 ![Configuración TCP de la herramienta.](/imagenes/Tool_Config.jpg)   
 En este caso de acurdo a la geometría del portaherramientas y la longitud que sobresale del marcador desde la punta se sabe que la herramienta presenta un desfase de 150 mm desde la base de anclaje, se usa este valor para realizar la configuración y se verifica la posición de dicho TCP.  
+#### Calibración de herramienta en IRB140 y IRC5.  
+Inicialmente se entra a la ventana de Program Data, se selecciona en la pantalla principal tooldata, como se muestra a continuación:  
+![Creación del Data Tool.](/imagenes/ToolData.jpg)   
+Luego se da en New, así:  
+![Creación del Data Tool.](/imagenes/NewTool.jpg)   
+Luego se le asigna un nombre a la herramienta, y se crea, asi:   
+![Creación del Data Tool.](/imagenes/NameTool.jpg)   
+Luego se selecciona la herramienta recién creada y se inicia el proceso de definición de su configuración, así:  
+![Creación del Data Tool.](/imagenes/DefineTool.jpg)   
+En este caso se realiza la definición de la herramienta con 4 puntos en diferentes orientaciones y un punto vertical, para ello se selecciona TPC & Z, así:  
+![Creación del Data Tool.](/imagenes/TCPZ.jpg)   
+Luego se hace Jogging con el robot hasta las orientaciones y posiciones indicadas en las que la punta de la herramienta alcance la misma posición absoluta, de esta forma el programa puede calcular los desplazamientos relativos que tiene el TCP de la herramienta y adicionalmente calcula con que error esta dado ese punto, de acuerdo a la precisión obtenida en el posicionamiento del robot, esto se hace como se muestra a continuación:   
+![Creación del Data Tool.](/imagenes/ModifyTool.jpg)   
 
 
 ## Trayectorias
